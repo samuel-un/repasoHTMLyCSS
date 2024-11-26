@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 6</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ejercicio 6</title>
+	</head>
+	<body>
+		<h1>Formulario de registro</h1>
+		<label for="name">Nombre:</label>
+		<input type="text" name="name" id="name" />
+		<br />
+		<br />
+		<label for="surname">Apellidos:</label>
+		<input type="text" name="surname" id="surname" />
+		<br />
+		<br />
+		<label for="sex">Sexo:</label>
+		<input type="radio" name="sexo" value="h" /> hombre
+		<input type="radio" name="sexo" value="m" /> mujer
+		<br />
+		<br />
+		<label for="email">Correo:</label>
+		<input type="email" name="email" id="email" />
+		<br />
+		<br />
+		<p>
+			<input type="checkbox" name="info" id="info" /> Deseo recibir
+			información sobre novedades y ofertas
+		</p>
+		<p>
+			<input type="checkbox" name="condiciones" /> Declaro haber leido y
+			aceptar las condiciones generales del programa y la normativa sobre
+			protección de datos
+		</p>
+        <p><input type="submit" value="Enviar"></p>
+	</body>
 </html>

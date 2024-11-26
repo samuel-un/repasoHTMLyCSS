@@ -6,11 +6,11 @@ h2 {
 	border: 2px solid #aaa;
 }
 
-#datos {
+#datos-libro {
 	border-top: 4px dotted #f00;
 	border-bottom: 4px dotted #f00;
 }
 
-#contenido {
+#contenido-libro {
 	border: 2px dashed #0f0;
 }
